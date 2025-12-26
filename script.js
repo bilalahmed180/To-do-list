@@ -13,8 +13,12 @@ document.body.appendChild(main);
 const box = document.createElement("div");
 
 box.style.width = "350px";
+box.style.height = "350px";
+
+box.style.width = "350px";
 box.style.background = "#eabc52ff";
 box.style.boxShadow = "4px 9px 900px 20px";
+box.style.overflowY = "auto";
 box.style.borderRadius = "20px";
 box.style.padding = "0px 30px";
 
